@@ -1,0 +1,59 @@
+.submit-form-container {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.submit-form-card {
+  border: 1px solid #000;
+  box-shadow: 6px 8px #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 15px;
+  width: 50%;
+  max-width: 300px;
+  height: 100%;
+  background-color: rgb(248, 219, 255);
+}
+.banana-container {
+  text-align: center;
+  padding-top: 0px;
+}
+.form-text {
+  width: 95%;
+  height: 30px;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 8px;
+}
+.submit-button {
+  border: none;
+  box-shadow: 1px 2px rgba(218, 207, 237, 0.598);
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 700;
+  font-size: 12px;
+  background-color: rgb(246, 228, 254);
+}
+.submit-button:hover {
+  background-color: rgb(242, 217, 252);
+  box-shadow: 1px 2px rgba(165, 153, 186, 0.598);
+}
+h3 {
+  margin-top: 0px;
+  font-size: 13px;
+  font-weight: 700;
+}
+.counter {
+  margin: 0px;
+  font-size: 10px;
+  font-weight: 300;
+  text-align: right;
+  color: dimgray;
+}
