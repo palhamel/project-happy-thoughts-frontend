@@ -6,7 +6,7 @@ import './thoughts_style.css'
 // List all posts from API:
 export const ThoughtsList = () => {
   // URL to API as const:
-  const apiURL = 'https://technigo-thoughts.herokuapp.com/'
+  const apiURL = 'http://localhost:8080/'
   const [thoughts, setThoughts] = useState([]) 
   // Checking API via Fetch to setThoughts and then map the info:
   useEffect(()  => {

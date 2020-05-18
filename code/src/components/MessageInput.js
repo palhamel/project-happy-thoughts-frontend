@@ -11,7 +11,7 @@ import './messageinput_style.css'
   
 // MESSAGE FORM FOR POSTING TO API:
 export const MessageInputForm = () => {
-  const apiURL = 'https://technigo-thoughts.herokuapp.com/'
+  const apiURL = 'http://localhost:8080/'
   const [message, setMessage] = useState("")
 
   // FUNCTION FOR SUBMIT:

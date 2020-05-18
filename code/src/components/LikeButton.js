@@ -5,7 +5,7 @@ import './likebutton_style.css'
 export const LikeButton = (props) => {
 
   const handleClick = () => {
-    fetch(`https://technigo-thoughts.herokuapp.com/${props.id}/like`,
+    fetch(`http://localhost:8080/${props.id}/like`,
        {
         method: "POST",
         headers: { "Content-Type": "application/json" },
